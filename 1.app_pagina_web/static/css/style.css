@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #fff;
+    --secundary-color: #000;
+}
+
+.navbar-color{
+    background-color: transparent;
+}
+
+.text-color{
+    color: var(--primary-color);
+}
+
+.text-color-secundary{
+    background-color: var(--secundary-color)
+}
+
+li{
+    list-style: none ;
+}
+
+a{
+    text-decoration: none;
+}
