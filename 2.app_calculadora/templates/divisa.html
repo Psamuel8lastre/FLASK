@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Calculadora de divisas</h1>
+<p>Ingresa datos numericos</p>
+<form action="" method="POST">
+
+    <div class="row" >
+        <div class="col-md-6">
+            <input type="number" class="form-control" name="d1" placeholder="Ingresa el primer numero" aria-label="Ingresa el primer numero">
+        </div>
+        <div class="row py-3">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Calcular</button>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="row py-2">
+    <div class="col">
+        <h3>El resulado es: {{total_pesos}} en pesos </h3>
+        
+    </div>
+</div>
+{% endblock %}
